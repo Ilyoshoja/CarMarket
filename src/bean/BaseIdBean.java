@@ -1,6 +1,8 @@
 package bean;
 
 public class BaseIdBean {
+    //TODO:
+
     private Integer id;
 
     public BaseIdBean() {
@@ -13,4 +15,5 @@ public class BaseIdBean {
     public void setId(Integer id) {
         this.id = id;
     }
+
 }

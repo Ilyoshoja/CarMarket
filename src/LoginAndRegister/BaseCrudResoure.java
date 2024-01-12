@@ -1,18 +1,16 @@
 package LoginAndRegister;
 
-import bean.ApiResponce;
+
+import bean.ApiResponse;
 import bean.BaseIdBean;
 
-public interface BaseCrudResoure  <T extends BaseIdBean>{
+public interface BaseCrudResoure <T extends BaseIdBean>{
 
-    ApiResponce create(T bean);
+    ApiResponse create(T bean);
 
-    ApiResponce get(Integer id);
+    ApiResponse get(Integer id);
 
-    ApiResponce update(T bean);
+    ApiResponse update(T bean);
 
-    ApiResponce delete(Integer id);
-
-
-
+    ApiResponse delete(Integer id);
 }
